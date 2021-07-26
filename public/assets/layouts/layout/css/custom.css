@@ -1,0 +1,357 @@
+/* here you can put your own css to customize and override the theme */
+.table > tbody > tr > td,
+.table > thead > tr > th{
+    vertical-align: middle;
+}
+
+.actions a, .actions i{
+    color: #fff!important;
+}
+
+div.user-action .btn{
+    margin: 5px!important;
+}
+
+.input-large {
+    width: 383px!important;
+}
+
+.select2-container--bootstrap .select2-results__group{
+    background-color: #eee;
+    color: #000 !important;
+}
+
+.select2-container--bootstrap .select2-results__option .select2-results__option{
+    padding-left: 30px !important;
+}
+
+.md-checkbox label>.box{
+    /*background-color: red;*/
+}
+
+.marquee {
+    overflow: hidden;
+}
+
+a.zoom-in{
+    text-decoration: none;
+    cursor: zoom-in;
+}
+
+label.assign-course-label{
+    margin-right: 10px;
+}
+
+.assign-course-margin-bottom-0{
+    margin-bottom: 0;
+}
+
+.assign-course-margin-0{
+    margin: 0px;
+}
+
+.header-question h4{
+    font-weight: bold;
+    text-decoration: underline;
+}
+label.durations{
+    position: relative;
+    right: 20px;
+}
+
+.epe-exam .price-table-content .row:first-child {
+    padding-top: 50px!important;
+}
+.epe-exam .price-table-content .row{
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+}
+
+.dashboard-scroller{
+    color: #000;
+    font-size: 14px;
+    margin: -25px -20px 20px -20px;
+    padding: 10px;
+    border-bottom: 1px solid #e7ecf1;
+    background-color: #fff;
+}
+
+.profile-userpic img{
+    width: 160px !important;
+    height: 160px !important;
+}
+
+.dashboard-nav li{
+    display: inline;
+    border: 0px !important;
+}
+
+.dashboard-nav li a{
+    padding: 5px 20px 5px 0px;
+}
+
+.dashboard-profile-highlight{
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dashboard-course{
+    margin: 5px;
+    padding-left: 0px;
+}
+
+.epe-time .input-group-addon{
+    width: 0!important;
+    background-color:#fff;
+}
+
+.epe-duration .input-group-addon{
+    width: 0!important;
+}
+
+.epe-time .input-group-addon:first-child,
+.epe-duration .input-group-addon:first-child{
+    border-right: 1px solid #ccc!important;
+}
+.table-hover>tbody>tr.bg-red-thunderbird:hover, 
+.table-hover>tbody>tr.bg-red-thunderbird:hover>td {
+    background: #D91E18!important;
+}
+
+/*bakibillah 12092017*/
+
+.nav2 li a{
+    padding: 10px 3px!important;
+}
+.nav2{
+    margin-bottom: 0px!important;
+    padding:0px!important;
+}
+.no_of_qus{
+    width:0px!important;
+}
+.portlet2{
+    margin-bottom: 0px!important;
+}
+.sub_qus{
+    margin-bottom: 5px!important;
+}
+
+.page-header.navbar .page-logo .logo-default {
+    margin: 0px 0 0!important; 
+}
+
+.subjective-question{
+    font-weight: bold;
+    padding: 15px 0px;
+}
+
+.subqus_title{
+    margin-top:6px;
+}
+
+.exam-header{
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.confidential{
+    color: darkgrey;
+    padding: 8px;
+    text-transform: uppercase;
+
+}
+
+#objectiveExamHeader{
+    padding: 0px; 
+    background: #fff; 
+
+}
+
+.script-header-sticky{
+    padding: 10px;
+    -webkit-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.86);
+    -moz-box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.86);
+    box-shadow: 0px 4px 8px -4px rgba(0,0,0,0.86);
+
+}
+
+#subjectiveWaiter{
+    padding-top: 70px;
+    font-size: 26px;
+    color: red;
+    font-weight: bold;
+}
+
+.comments-space {
+    width:90%;
+    min-height:50px;
+    height:auto;
+    border-radius:5px;
+    background:#f0f0f0;
+    margin-bottom: 5px;
+    padding: 3px 5px;
+    text-align: justify;
+}
+.remaining-content span {
+    display:none;
+}
+
+
+.comment-custom{
+    border-bottom: 1px solid #f7f8f9;
+    margin: 0px!important; 
+}
+.comment-body-custom{
+    padding-left: 0px!important; 
+}
+
+.confidential{
+    color: darkgrey;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.jcsc-result-header{
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.jcsc-result-header p{
+    margin: 0px;
+}
+
+table.no-border, td.no-border{
+    border: 0;
+}
+
+.margin-bottom-75{
+    margin-bottom: 75px;
+}
+
+.subjective-complete{
+    font-weight: bold;
+    padding: 10px;
+}
+
+.comment-custom{
+    border-bottom: 1px solid #f7f8f9;
+    margin: 0px!important; 
+}
+
+.comment-body-custom{
+    padding-left: 0px!important; 
+}
+
+
+
+.jcsc-result-opt{
+    padding: 15px 0;
+}
+
+.table-jcsc-result td, .table-jcsc-result thead tr th{
+    font-size: 14px;
+    padding: 4px;
+}
+
+.dashboard-program{
+    margin: 5px;
+    padding-left: 0px;
+}
+
+.dashboard-program .btn{
+    width: 80px;
+}
+
+.question-script-image{
+    padding: 0 20px 20px 20px;
+    max-height: 300px;
+}
+
+.question-script-image-first-tab{
+    padding: 20px;
+    max-height: 300px;
+}
+
+.modal.fade.in {
+	top: 10% !important;
+}
+
+.left-margin{
+    margin-left: 4px;
+}
+.dot{
+    height: 100px;
+    width: 100px;
+    line-height: 99px;
+    display: inline-block;
+    font-size: 30px;
+}
+.dot-border-1{
+    border: 2px solid #525E64;   
+}
+.dot-border-2{
+    border: 2px solid #796799;  
+}
+.dot-border-3{
+    border: 2px solid #4C87B9;   
+}
+.dot-border-4{
+    border: 2px solid #1BA39C;
+}
+.count-style{
+    background: #f0f1f1 !important;
+    padding: 15px !important;
+}
+
+.dashboard-stat {
+    box-shadow: 2px 2px #00000025;
+}
+
+
+
+.dashboard-stat .visual{
+    text-align: center !important;
+    color: #ffffff !important;
+    }
+
+.label-green-seagreen {
+    background-color: #1BA39C !important;
+}
+.label-red-soft {
+    background-color: #D05454 !important;
+}
+.label-purple-sharp {
+    background-color: #796799 !important;
+}
+.label-grey-mint {
+    background-color: #525E64 !important;
+}
+
+.mul-ques-radio-btn{
+    margin-top: 7px;
+}
+.margin-bottom-10{
+    margin-bottom: 10px;
+}
+
+.clone-modal-header{
+    background-color: #4B77BE;
+    color: #ffffff;
+}
+.result{
+	height:250px;
+}
+
+.exam-details{
+    font-size: 15px !important;
+}
+

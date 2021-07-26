@@ -1,0 +1,1 @@
+<span class="text-primary">Region is: <b>{{$targetArr->region}}</b> & Cluster is: <b>{{$targetArr->cluster}}</b></span>

@@ -1,0 +1,1 @@
+   {!! Form::select('exam_id',$examInfoArr,Request::get('exam_id'),['class' => 'form-control js-source-states', 'id'=>'examId']) !!}

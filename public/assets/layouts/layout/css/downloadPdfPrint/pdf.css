@@ -1,0 +1,23 @@
+@import url('../../../../../../public/fonts/css.css?family=Roboto:700,400,300,100|Montserrat:400,700');
+/*@page { margin: 100px 25px; }*/
+header { position: fixed; top: -60px; left: 0px; right: 0px;height: 50px; }
+footer { position: fixed; bottom: -60px; left: 0px; right: 0px; height: 50px;}
+/*body {
+    font-family: 'bangla', sans-serif;
+}*/
+h6 { page-break-after: always; }
+h6:last-child { page-break-after: never; }
+.page-header,
+.page-footer {
+    color: darkgrey;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.a {
+    font-family: 'arial';
+    font-size:5px;
+}
+
+
+

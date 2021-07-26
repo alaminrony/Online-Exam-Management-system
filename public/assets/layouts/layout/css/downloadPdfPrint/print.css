@@ -1,0 +1,242 @@
+@import url('../../../../../../public/fonts/css.css?family=Roboto:700,400,300,100|Montserrat:400,700');
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans", sans-serif;
+}
+
+.headerElement {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.header p {
+    margin: 0px;
+}
+
+table,
+table.recipe-table {
+    /*border: 1px solid #000;*/
+    border-collapse: collapse;
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+table.recipe-table {
+    font-size: 9px;
+}
+
+th,
+td {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+td.text-right {
+    text-align: right;
+}
+
+th.text-left {
+    text-align: left;
+}
+
+h1.report-name {
+    font-size: 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.report-footer {
+    margin-top: 25px;
+}
+
+.prepared-by {
+    width: 100px;
+    border-top: 1px solid #000;
+}
+
+td.sub-item {
+    padding-left: 20px;
+}
+
+td.text-center {
+    text-align: center;
+}
+
+table.no-border,
+th.no-border,
+td.no-border {
+    border: 0;
+}
+
+.has-top-border {
+    border-top: 1px solid #000;
+    display: inline;
+    padding: 0 20px;
+}
+
+.confidential {
+    color: darkgrey;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+
+.header {
+	position:relative;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.logoCityBank {
+	float:left; 
+	width: 30%;
+}
+.logoTile{
+	float:left; 
+	width: 40%;
+        font-size: 20px;
+}
+.logoRetail {
+	float:left; 
+	width: 30%;
+}
+.margin-bottom-75 {
+    margin-bottom: 75px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.table2 th,
+.table2 td {
+    border: none !important;
+}
+
+.report-title {
+    width: 40%;
+}
+
+.border-style {
+    border: 5px solid #000000;
+}
+
+
+/* Added for Recipe Details Print */
+
+.label-warning,
+.label-success,
+.label-primary,
+.label-danger {
+    font-size: 9px;
+    padding: 0px 5px;
+}
+
+.label-warning {
+    background: #F1C40F;
+}
+
+.label-success {
+    background: #36c6d3;
+}
+
+.label-primary {
+    background: #337ab7;
+}
+
+.label-danger {
+    background: lightsalmon;
+}
+
+.token-label {
+    text-shadow: none!important;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 3px 6px;
+    background-color: #ed6b75;
+}
+
+.header-color {
+    background-color: #D3E1FF;
+}
+
+.total-color {
+    background-color: #e7eaf0;
+}
+
+
+/* CSS for BatchCard Print */
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th box-size {
+    padding: 5px!important;
+    border-top: 1px!important;
+}
+
+.check-padding {
+    padding: 5px!important;
+}
+
+table.recipe-table.th,
+table.recipe-table td {
+    border: 1px solid #000;
+    padding: 2px 5px;
+}
+
+.vcenter {
+    vertical-align: middle !important;
+    float: none;
+}
+
+
+/* START:: CSS for Demand Letter Print*/
+
+.demand-letter-offset {
+    margin-left: 25%;
+}
+
+.demand-letter {
+    width: 50%;
+}
+
+.demand-token {
+    border: 1px solid #000000;
+}
+
+.line-cut {
+    text-decoration: line-through;
+}
+/* END:: CSS for Demand Letter Print*/
+
+.border-double-right {
+    border-right: 4px double #000000!important;
+}
+
+
+.bg-default{
+    background: #e1e5ec!important;
+}
+
+.header-margin{
+    margin-bottom: 50px;
+}
+ 
+
+@media print {
+    @page {
+        size: portrait
+    }
+}

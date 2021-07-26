@@ -1,0 +1,1 @@
+{!! Form::select('cluster_id', $clusterList, null, ['class' => 'form-control js-source-states', 'id' => 'clusterId']) !!}
